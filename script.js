@@ -1,4 +1,4 @@
-ingredientesSelecionados = []
+let ingredientesSelecionados = [];
 
 function mostrarIngredientes() {
     document.getElementById("ingredientes").style.display = "block";
@@ -7,7 +7,7 @@ function mostrarIngredientes() {
 function verificar() {
     let lancheSelecionado = document.getElementById("lanches").value;
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-
+    ingredientesSelecionados = [];
     checkboxes.forEach((checkbox) => {
         if (checkbox.checked) {
             ingredientesSelecionados.push(checkbox.id);
@@ -136,7 +136,6 @@ function verificar() {
     }
 
     document.getElementById("resultado").innerText = resultado;
-    lancheSelecionado = null;
 
 }
 
