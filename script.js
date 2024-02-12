@@ -1,11 +1,12 @@
 let ingredientesSelecionados = [];
+let lancheSelecionado = null;
 
 function mostrarIngredientes() {
     document.getElementById("ingredientes").style.display = "block";
 }
 
 function verificar() {
-    let lancheSelecionado = document.getElementById("lanches").value;
+    lancheSelecionado = document.getElementById("lanches").value;
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
     ingredientesSelecionados = [];
     checkboxes.forEach((checkbox) => {
@@ -144,6 +145,7 @@ function reiniciar() {
     document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
         checkbox.checked = false;
     });
-    document.getElementById("resultado").innerText = "";
+    document.getElementById("ingredientes").style.display = "none";
     ingredientesSelecionados = [];
+    lancheSelecionado = null;
 }
