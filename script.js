@@ -136,6 +136,7 @@ function verificar() {
     }
 
     document.getElementById("resultado").innerText = resultado;
+    lancheSelecionado = null;
 
 }
 
@@ -146,5 +147,4 @@ function reiniciar() {
     });
     document.getElementById("resultado").innerText = "";
     ingredientesSelecionados = [];
-    lancheSelecionado = null;
 }
