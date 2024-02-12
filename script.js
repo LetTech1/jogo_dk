@@ -1,12 +1,11 @@
 ingredientesSelecionados = []
-let lancheSelecionado = document.getElementById("lanches").value;
 
 function mostrarIngredientes() {
     document.getElementById("ingredientes").style.display = "block";
 }
 
 function verificar() {
-    lancheSelecionado;
+    let lancheSelecionado = document.getElementById("lanches").value;
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
 
     checkboxes.forEach((checkbox) => {
