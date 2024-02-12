@@ -1,5 +1,5 @@
 ingredientesSelecionados = []
-const lancheSelecionado = document.getElementById("lanches").value;
+let lancheSelecionado = document.getElementById("lanches").value;
 
 function mostrarIngredientes() {
     document.getElementById("ingredientes").style.display = "block";
@@ -147,5 +147,5 @@ function reiniciar() {
     });
     document.getElementById("resultado").innerText = "";
     ingredientesSelecionados = [];
-    lancheSelecionado;
+    lancheSelecionado = null;
 }
