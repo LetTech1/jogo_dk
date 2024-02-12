@@ -84,28 +84,28 @@ function verificar() {
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente6")
                 || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente7")
                 || !ingredientesSelecionados.includes("ingrediente8") || !ingredientesSelecionados.includes("ingrediente9")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king simples":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente2") || !ingredientesSelecionados.includes("ingrediente5")
                 || !ingredientesSelecionados.includes("ingrediente22") || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente7")
                 || !ingredientesSelecionados.includes("ingrediente8") || !ingredientesSelecionados.includes("ingrediente9")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king duplo":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente18") || !ingredientesSelecionados.includes("ingrediente23")
                 || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente22") || !ingredientesSelecionados.includes("ingrediente7")
                 || !ingredientesSelecionados.includes("ingrediente8") || !ingredientesSelecionados.includes("ingrediente9")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king salada":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente2") || !ingredientesSelecionados.includes("ingrediente12")
                 || !ingredientesSelecionados.includes("ingrediente5") || !ingredientesSelecionados.includes("ingrediente3") || !ingredientesSelecionados.includes("ingrediente4")
                 || !ingredientesSelecionados.includes("ingrediente8") || !ingredientesSelecionados.includes("ingrediente9") || !ingredientesSelecionados.includes("ingrediente7")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king egg":
@@ -113,28 +113,28 @@ function verificar() {
                 || !ingredientesSelecionados.includes("ingrediente5") || !ingredientesSelecionados.includes("ingrediente19") || !ingredientesSelecionados.includes("ingrediente3")
                 || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente7") || !ingredientesSelecionados.includes("ingrediente8")
                 || !ingredientesSelecionados.includes("ingrediente9")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king bacon":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente2") || !ingredientesSelecionados.includes("ingrediente5")
                 || !ingredientesSelecionados.includes("ingrediente11") || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente22")
                 || !ingredientesSelecionados.includes("ingrediente8") || !ingredientesSelecionados.includes("ingrediente9") || !ingredientesSelecionados.includes("ingrediente7")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "king bbq":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente2") || !ingredientesSelecionados.includes("ingrediente5")
                 || !ingredientesSelecionados.includes("ingrediente3") || !ingredientesSelecionados.includes("ingrediente17") || !ingredientesSelecionados.includes("ingrediente4")
                 || !ingredientesSelecionados.includes("ingrediente7") || !ingredientesSelecionados.includes("ingrediente16")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
         case "dog vegetariano":
             if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente5") || !ingredientesSelecionados.includes("ingrediente19")
                 || !ingredientesSelecionados.includes("ingrediente3") || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente17")
                 || !ingredientesSelecionados.includes("ingrediente7")) {
-                resultado = "Você acertou os ingredientes!";
+                resultado = "Você errou os ingredientes!";
             }
             break;
     }
