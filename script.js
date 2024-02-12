@@ -146,5 +146,4 @@ function reiniciar() {
     });
     document.getElementById("resultado").innerText = "";
     ingredientesSelecionados = [];
-    lancheSelecionado = document.getElementById("lanches").value;
 }
