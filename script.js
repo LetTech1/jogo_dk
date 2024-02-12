@@ -49,7 +49,9 @@ function verificar() {
             }
             break;
         case "especial":
-            if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente6") || !ingredientesSelecionados.includes("ingrediente2") || !ingredientesSelecionados.includes("ingrediente20") || !ingredientesSelecionados.includes("ingrediente5") || !ingredientesSelecionados.includes("ingrediente4") || !ingredientesSelecionados.includes("ingrediente9") || !ingredientesSelecionados.includes("ingrediente") || !ingredientesSelecionados.includes("ingrediente8")) {
+            if (!ingredientesSelecionados.includes("ingrediente1") || !ingredientesSelecionados.includes("ingrediente6") || !ingredientesSelecionados.includes("ingrediente2") 
+                || !ingredientesSelecionados.includes("ingrediente20") || !ingredientesSelecionados.includes("ingrediente5") || !ingredientesSelecionados.includes("ingrediente4") 
+                || !ingredientesSelecionados.includes("ingrediente9") || !ingredientesSelecionados.includes("ingrediente7") || !ingredientesSelecionados.includes("ingrediente8")) {
                 resultado = "Você errou os ingredientes!";
             }
             break;
