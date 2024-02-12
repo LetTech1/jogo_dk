@@ -140,9 +140,10 @@ function verificar() {
 }
 
 function reiniciar() {
-    document.getElementById("ingredientes").style.display = "none";
+    document.getElementById("resultado").style.display = "none";
     document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
         checkbox.checked = false;
     });
     document.getElementById("resultado").innerText = "";
+    ingredientesSelecionados = [];
 }
