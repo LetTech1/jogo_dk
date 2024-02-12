@@ -145,5 +145,6 @@ function reiniciar() {
         checkbox.checked = false;
     });
     document.getElementById("resultado").innerText = "";
+    lancheSelecionado = null;
     ingredientesSelecionados = [];
 }
