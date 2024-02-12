@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Escolha seu lanche</h1>
+    <div class="selection">
+      <select id="lanches">
+        <option value="dog frango">Dog Frango</option>
+        <option value="dog frango duplo">Dog Frango Duplo</option>
+        <option value="dog frango bacon">Dog Frango Bacon</option>
+        <option value="dog frango cremoso">Dog Frango Cremoso</option>
+        <option value="dog frango picante">Dog Frango Picante</option>
+        <option value="dog frango defumado">Dog Frango Defumado</option>
+        <option value="especial">Especial</option>
+        <option value="dog calabresa">Dog Calabresa</option>
+        <option value="dog bacon queijo">Dog Bacon Queijo</option>
+        <option value="dog bacon">Dog Bacon</option>
+        <option value="dog queijo">Dog Queijo</option>
+        <option value="dog duplo">Dog Duplo</option>
+        <option value="dog tradicional">Dog Tradicional</option>
+        <option value="king simples">King Simples</option>
+        <option value="king duplo">King Duplo</option>
+        <option value="king salada">King Salada</option>
+        <option value="king egg">King Egg</option>
+        <option value="king bacon">King Bacon</option>
+        <option value="king bbq">King BBQ</option>
+        <option value="dog vegetariano">Dog Vegetariano</option>
+      </select>
+      <button onclick="mostrarIngredientes()">Escolher</button>
+    </div>
+
+    <div id="ingredientes" style="display: none;">
+      <h2>Escolha os ingredientes:</h2>
+      <div class="checkboxes">
+        <label><input type="checkbox" id="ingrediente1"> Pão</label><br>
+        <label><input type="checkbox" id="ingrediente2"> Hambúrguer</label><br>
+        <label><input type="checkbox" id="ingrediente3"> Alface</label><br>
+        <label><input type="checkbox" id="ingrediente4"> Tomate</label><br>
+        <label><input type="checkbox" id="ingrediente5"> Muçarela</label><br>
+        <label><input type="checkbox" id="ingrediente6"> Salsicha</label><br>
+        <label><input type="checkbox" id="ingrediente7"> Maionese</label><br>
+        <label><input type="checkbox" id="ingrediente8"> Ketchup</label><br>
+        <label><input type="checkbox" id="ingrediente9"> Mostarda</label><br>
+        <label><input type="checkbox" id="ingrediente10"> 2 salsichas</label><br>
+        <label><input type="checkbox" id="ingrediente11"> Bacon</label><br>
+        <label><input type="checkbox" id="ingrediente12"> Presunto</label><br>
+        <label><input type="checkbox" id="ingrediente13"> Molho especial</label><br>
+        <label><input type="checkbox" id="ingrediente14"> Molho chipotle</label><br>
+        <label><input type="checkbox" id="ingrediente15"> Pimenta calabresa</label><br>
+        <label><input type="checkbox" id="ingrediente16"> Molho barbecue</label><br>
+        <label><input type="checkbox" id="ingrediente17"> Cebola com shoyu</label><br>
+        <label><input type="checkbox" id="ingrediente18"> 2 hambúrgueres</label><br>
+        <label><input type="checkbox" id="ingrediente19"> Ovo</label><br>
+        <label><input type="checkbox" id="ingrediente20"> Frango</label><br>
+        <label><input type="checkbox" id="ingrediente21"> Calabresa</label><br>
+        <label><input type="checkbox" id="ingrediente22"> Cebola</label><br>
+        <label><input type="checkbox" id="ingrediente23"> 2 muçarelas</label><br>
+
+      </div>
+
+      <button onclick="verificar()">Verificar</button>
+      <button onclick="reiniciar()">Reiniciar</button>
+      <p id="resultado"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
